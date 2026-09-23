@@ -6,7 +6,10 @@ let c = []
 
 for(let i =0; i<a.length; i++){
     if(b.includes(a[i])){
-      c.push(a[i])
+        if(!c.includes(a[i]){
+            c.push(a[i])
+        }
+      
     }
     else{
       b.push(a[i])
